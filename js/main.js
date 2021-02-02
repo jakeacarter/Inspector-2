@@ -11,6 +11,8 @@ function reDisplay() {
 
 reDisplay()
 
+document.getElementById("url").textContent = document.URL;
+
 //alert(document.lastModified);
 //let myDocument = new Date(document.lastModified);
 
