@@ -13,6 +13,21 @@ reDisplay()
 
 document.getElementById("url").textContent = document.URL;
 
+var docTitle = document.title;
+
+let documentTitle = `Document Title is ${document.title}.`
+let myTitle = document.querySelector('#myTitle').innerText = document.title
+
+let documentUpdate = `This page was last updated on ${document.Date}.`
+let myDocument = document.querySelector('#myDocument').innerText = new Date
+
+//let myDocument = new Date(document.documentUpdate);
+//var string = document.myDocument;
+
+//alert(document.lastModified);
+
+//let myDocument = new Date(document.lastModified);
+
 //alert(document.lastModified);
 //let myDocument = new Date(document.lastModified);
 
